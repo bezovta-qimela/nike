@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+.container {
+  width: 100%;
+  max-width: 1140px;
+  padding: 0 15px;
+  border: 3px solid red;
+  min-height: 50px;
+  margin: 0 auto;
+}
+.navbar {
+  background-color: #322e41;
+}
+.navbar-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar-links {
+  display: flex;
+  gap: 28px;
+}
+.nav-link {
+  color: white;
+  padding: 23px 14px;
+  display: block;
+}
+.nav-link:hover {
+  color: #d47300;
+  background-color: white;
+}
+
+.header {
+  background-image: url(./images/nike.jpg);
+  height: 500px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header-text {
+  color: white;
+  text-align: center;
+}
+.header-text h2 {
+  font-size: 50px;
+  margin-bottom: 15px;
+}
+.header-text p {
+  font-size: 18px;
+}
+
+.product {
+  background-color: #EBEBEB;
+}
+.product-content {
+  display: flex;
+  justify-content: space-between;
+}
+.main-product {
+  background: white;
+  width: 540px;
+  padding: 15px;
+  border-radius: 6px;
+  transform: translateY(-30px);
+}
+.main-product h3 {
+  font-size: 22px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.main-product p {
+  color: #9B9B9B;
+}
+.products {
+  width: 540px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.product-card {
+  width: 255px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  padding: 15px;
+  border-radius: 6px;
+  transform: translateY(-30px);
+}
+.product-card h3 {
+  font-size: 22px;
+}
+
+.product-card p {
+  color: #9B9B9B;
+  line-height: 16px;
+}
+
+
+
+.footer{
+    background-color: #322E41;
+    padding: 37px 0 57px;
+}
+.footer-comment{
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  gap: 10px;
+}
+.footer-comment input{
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  padding: 8px;
+  font-size: 18px;
+}
+.footer-comment textarea{
+  height: 86px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  padding: 8px;
+  font-size: 18px;
+  resize: none;
+}
+.footer-content{
+display: flex;
+justify-content: space-around;
+}
+.footer-comment button{
+  border: none;
+  background-color: #544294;
+  color: white;
+  border-radius: 6px;
+  padding: 4px 0;
+}
+.footer-links{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  column-gap: 68px;
+  row-gap: 10px;
+  height: 110px;
+}
+.footer-link{
+  color: white;
+}
+.footer-link:hover{
+color: #d47300;
+}
